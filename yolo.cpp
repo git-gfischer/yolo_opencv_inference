@@ -143,8 +143,8 @@ int main(int argc,char** argv)
 {
     std::cout << "Staring yolo" << std::endl;
 
-    //Choose here the yolo version [yolov3","yolov4"]
-    std::string yolo_version = "yolov4";
+    //Choose here the yolo version [yolov3","yolov4","yolov4-tiny"]
+    std::string yolo_version = "yolov4-tiny";
 
     //get pwd
     std::string current_folder;

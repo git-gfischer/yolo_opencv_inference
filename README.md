@@ -14,6 +14,11 @@ cd models/yolov4
 wget https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v3_optimal/yolov4.weights
 ```
 
+Download yoloV4-tiny weigths
+```
+wget https://github.com/AlexeyAB/darknet/releases/download/darknet_yolo_v4_pre/yolov4-tiny.weights
+```
+
 # Build 
 ```
 mkdir build

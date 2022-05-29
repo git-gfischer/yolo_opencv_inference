@@ -1,3 +1,4 @@
 build
 models/yolov3/yolov3.weights
 models/yolov4/yolov4.weights
+models/yolov4-tiny/yolov4-tiny.weights
