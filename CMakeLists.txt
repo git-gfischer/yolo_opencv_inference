@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.10)
+project(yolo)
+find_package( OpenCV REQUIRED )
+add_executable(yolo yolo.cpp)
+target_link_libraries(yolo ${OpenCV_LIBS} )
